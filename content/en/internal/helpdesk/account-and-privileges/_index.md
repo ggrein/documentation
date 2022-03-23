@@ -25,8 +25,12 @@ expires. They can navigate to the
 your GGUS account" and update their data. Modifying the DN field will result in
 an additional DN field: the old DN will be kept and the new DN will be added.
 Subsequently, the user is identified with the two DNs. If the old DN is no more
-valid please just clear the DN field and save the change. Once the old
-certificate has expired before updating the account data, users can request an
+valid please just clear the DN field and save the change. 
+
+Please use "," as delimiter in the DN. 
+The easiest way for getting DN in the correct format is copying it from the yellow box on the [registration page](https://ggus.eu/?mode=register_info).
+
+Once the old certificate has expired before updating the account data, users can request an
 update via GGUS ticket against Helpdesk(GGUS) support unit.
 
 ## Linking the EGI SSO persistent ID to the GGUS account
