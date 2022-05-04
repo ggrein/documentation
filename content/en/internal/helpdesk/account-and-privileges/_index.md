@@ -31,28 +31,54 @@ update via GGUS ticket against Helpdesk(GGUS) support unit.
 
 ## Linking the EGI SSO persistent ID to the GGUS account
 
+**Since release 20220427 (https://ggus.eu/?mode=release_notes&2022-04-27) the SSO persistent ID was
+replaced by the VOPersonID**
+
+## Linking the EGI SSO VOPersonID to your GGUS account
+
 **Pre-requisites: the email address of your EGI SSO account must be equal to the
 email address registered in GGUS!**
 
-For adding your EGI SSO persistent ID to your account data please do the
+For existing accounts the VOPersonID was imported by the GGUS team.
+However, if the VOPersonID is not mapped to your account yet there are two options depending on
+your account registration.
+If you still have a valid grid certificate mapped to your account please do the
 following:
 
-- login to GGUS using your EGI SSO account
-- on GGUS home click the [Registration](https://ggus.eu/?mode=register_info)
+- 1. login to GGUS using your EGI SSO account
+- 2. on GGUS home click the [Registration](https://ggus.eu/?mode=register_info)
   link
 
-![your account information](GGUS_EGI_AAI_1.png)
+![your account information](RegisterInfo_AAI.png)
 
-- click the button "Add my Shibboleth ID to my account" at the bottom of the
-  yellow box.
+- 3. copy the VOPersonID from the yellow box
+- 4. second login to GGUS using your grid certificate
+- 5. on GGUS home click the [Registration](https://ggus.eu/?mode=register_info) link
+- 6. click [Check your GGUS account] below the yellow box and add your VOPersonID
+
+If you are not able to update your account by yourself repeat steps 1 to 3 above and send 
+your VOPersonID to the GGUS team (support@ggus.org) asking for an update of your account.
 
 ## Getting supporter privileges
 
 In order to process tickets assigned to the support unit you belong to, or in
 general tickets submitted by other users and assigned to other support units,
 you need to own supporter privileges. Therefore users need to register an
-account at GGUS. Registration can be done either using an X509 personal
-certificate or using the EGI AAI account.
+account at GGUS. Registration can be done either using an EGI AAI account
+or an X509 personal grid certificate. 
+It is appreciated using EGI SSO!
+
+### Registration with the EGI AAI account
+
+Please access GGUS via [EGI Check-in](../../../users/check-in). 
+For getting support privileges you need to be member of the
+[ggus-supporters](https://aai.egi.eu/registry/co_petitions/start/coef:69) group
+in EGI Check-in. Click the link "Get GGUS support permission using EGI AAI Checkin" 
+and follow the instructions.
+Support privileges will be granted automatically. You will receive
+an automated email from GGUS system confirming your support privileges.
+
+![GGUS registration form](RegisterInfo_AAI.png)
 
 ### Registration with an x509 certificate
 
@@ -65,24 +91,6 @@ additional information about registration process. Clicking on the
 the user has to fill in. After filling in the registration form, GGUS team will
 check whether support privileges can be granted. The user will receive an email
 from the GGUS team (usually) confirming their supporter privileges.
-
-### Registration with the EGI AAI account
-
-Users who do not have a valid X509 certificate can access GGUS via
-[EGI Check-in](../../../users/check-in). For getting support privileges the user
-needs to be member of the
-[ggus-supporters](https://aai.egi.eu/registry/co_petitions/start/coef:69) group
-in EGI Check-in. However the user should fill in the
-[registration form](https://ggus.eu/?mode=register_info) for creating an account
-at GGUS. Support privileges will be granted automatically. The user will receive
-an automated email from GGUS system confirming their support privileges.
-
-![GGUS registration form](GGUS_Registration_Form.png)
-
-Both authentication methods, X509 certificate and EGI Check-in account, will be
-guaranteed in the future. Since the use of login and password will no longer be
-guaranteed in the future, it is recommended to access GGUS with a valid digital
-certificate or EGI Check-in.
 
 ## Troubleshooting
 
@@ -99,13 +107,9 @@ Unregistered users have to register first. On
 support right for the GGUS portal once you will submit this form.“ Support
 permissions will be granted automatically.
 
-![Updating PersistentID](Account_Update_PersistentID.png)
-
-Click on the "Add my ...." button.
-
 - Case 2: user already registered in GGUS with an X509 DN.
 
-You can decide to add the Shibboleth ID to the existing account and check the
+You can decide to add the VOPersonID to the existing account and check the
 updated account. In case the email addresses are different you may either
 harmonize your email address in EGI SSO and GGUS account or create a new account
 using EGI SSO data.
