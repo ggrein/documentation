@@ -51,12 +51,12 @@ following:
 In order to process tickets assigned to the support unit you belong to, or in
 general tickets submitted by other users and assigned to other support units,
 you need to own supporter privileges. Therefore users need to register an
-account at GGUS. Registration can be done either using an X509 personal
+account at GGUS. Registration can be done either using an X509 personal grid
 certificate or using the EGI AAI account.
 
 ### Registration with an x509 certificate
 
-For registering with an X509 certificate the user should go to
+For registering with an X509 grid certificate the user should go to
 [GGUS home](https://ggus.eu/index.php?mode=index) and click the
 [registration link](https://ggus.eu/?mode=register_info) in the menu bar at the
 left. This link opens the registration information page which gives some
@@ -68,7 +68,7 @@ from the GGUS team (usually) confirming their supporter privileges.
 
 ### Registration with the EGI AAI account
 
-Users who do not have a valid X509 certificate can access GGUS via
+Users who do not have a valid X509 grid certificate can access GGUS via
 [EGI Check-in](../../../users/aai/check-in). For getting support privileges the
 user needs to be member of the
 [ggus-supporters](https://aai.egi.eu/registry/co_petitions/start/coef:69) group
@@ -79,10 +79,9 @@ an automated email from GGUS system confirming their support privileges.
 
 ![GGUS registration form](GGUS_Registration_Form.png)
 
-Both authentication methods, X509 certificate and EGI Check-in account, will be
-guaranteed in the future. Since the use of login and password will no longer be
-guaranteed in the future, it is recommended to access GGUS with a valid digital
-certificate or EGI Check-in.
+Both authentication methods, X509 grid certificate and EGI Check-in account, are
+guaranteed for the time being. Since the use of X509 grid certificates will probably not be
+guaranteed in the future, it is recommended to access GGUS via EGI Check-in.
 
 ## Troubleshooting
 
