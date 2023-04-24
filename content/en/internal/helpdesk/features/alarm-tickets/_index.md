@@ -39,7 +39,7 @@ People who want to become an alarmer have to
 - register in GGUS first
 - be added to the appropriate group in a VOMS server.
 
-GGUS system synchronizes its user database once per night with the VOMS servers.
+GGUS system synchronizes its user database once per hour with the VOMS servers.
 The synchronization is based on the DN string. Please make sure the DN of your
 GGUS account is the same than the one registered in VOMS.
 
