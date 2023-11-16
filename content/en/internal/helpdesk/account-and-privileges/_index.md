@@ -29,19 +29,20 @@ valid please just clear the DN field and save the change. Once the old
 certificate has expired before updating the account data, users can request an
 update via GGUS ticket against Helpdesk(GGUS) support unit.
 
-## Linking the EGI SSO persistent ID to the GGUS account
+## Linking the EGI SSO VOPersonID to the GGUS account
 
 **Pre-requisites: the email address of your EGI SSO account must be equal to the
 email address registered in GGUS!**
 
-For adding your EGI SSO persistent ID to your account data please do the
+For adding your EGI SSO VOPersonID to your account data please do the
 following:
 
 - login to GGUS using your EGI SSO account
 - on GGUS home click the [Registration](https://ggus.eu/?mode=register_info)
   link
 
-![your account information](GGUS_EGI_AAI_1.png)
+![your account information](RegisterInfo_AAI_VOPersonID.PNG)(https://github.com/EGI-Federation/documentation/assets/94046531/d66dc611-3db6-4d02-8bc1-b05582bd8218)
+
 
 - click the button "Add my Shibboleth ID to my account" at the bottom of the
   yellow box.
